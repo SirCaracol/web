@@ -1,0 +1,72 @@
+/*Pagina de estilo CSS*/
+
+body {
+    background-image: url(img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     height: 100%;
+}
+
+#icono {
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    display: block;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.570);
+}
+
+#barnav {
+    width: 95%;
+    margin: auto;
+}
+
+#contenido {
+    width: 95%;
+    height: 80%;
+    margin: auto;
+    margin-top: 5%;  
+    margin-bottom: 5%;
+}
+
+#izq {
+width: 45%;
+float: left;
+padding: 1rem;
+
+}
+
+iframe {
+text-align: center;
+float: right;
+margin: auto;
+width: 50%;
+}
+
+.imgs {
+    display: inline;
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    text-align: center;
+}
+
+.titulares {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+
+}
+
+#footer {
+    width: 95%;
+    height: 10%;
+    margin:auto;
+    margin-top: 40%;
+    position: absolute;
+}
